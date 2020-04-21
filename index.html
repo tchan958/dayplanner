@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Day Planner</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Plan Your Day</h1>
+    </header>
+    <!-- <div class="event">
+        <form>
+            <label for="time">Input Time</label>
+            <input id="time" name="time" type="number" step="1">
+        </form>
+        <br>
+        <form>
+            <label for="description">Description</label>
+            <input id="description" name="description" type="text">
+        </form>
+        <br>
+        <button>Submit</button>
+    </div> -->
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        <h1>Today</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <h2>Time</h2>
+                    </th>
+                    <th>
+                        <h2>Event</h2>
+                    </th>
+                    <th>
+                        <h3>Save</h3>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="nine-oclock">
+                    <td><label class="hour">9am</label></td>
+                    <td class="description"><textarea >
+                </textarea></td>
+                    <td><button class="btn-success btn-save">Save</button></td>
+                </tr>
+                <tr id="ten-oclock">
+                    <td><label class="hour">10am</label></td>
+                    <td><textarea class="description">
+                </textarea></td>
+                    <td><button class="btn-success btn-save">Save</button></td>
+                </tr>
+                <tr id="eleven-oclock">
+                    <td><label class="hour">11am</label></td>
+                    <td><textarea class="description">
+                </textarea></td>
+                    <td><button class="btn-success btn-save">Save</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
